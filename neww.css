@@ -1,0 +1,126 @@
+body{
+    margin:0;
+}
+#half1{
+    background-color: black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+   z-index: 11;
+   color: white;
+   font-size: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+#half2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(235, 235, 235);
+}
+
+#inner-div{
+    height: 75%;
+    width: 30%;
+    background-color: aua;
+    position: absolute;
+    top: 20%;
+    left:55% ;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.span-1{
+    color: black;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.span-2{
+    color: black;
+    margin-top: 10px;
+}
+.intem21,.intem22{
+    display: inline-block;
+    width: 38.5%;
+    height: 5%;
+    background-color: white;
+    border-radius: 8px;
+}
+.intem21{
+
+ 
+}
+.intem22{
+    margin-left: 10px;
+
+}
+.intem1{
+    top: 0;
+    background-color: yellw;
+    position: relative;
+}
+
+.intem3{
+    background-color:white;
+    height: 55%;
+    margin-top: 4%;
+    position: absolute;
+    width: 80%;
+    border-radius: 15px;
+}
+.intem4{
+    background-color: brown;
+  position:absolute;
+  bottom: 0;
+}
+.email-txt,.pass-txt,.dont{
+margin-left: 30px;
+}
+.email-txt
+{
+    top: 30px;
+    position: relative;
+}
+.pass-txt{
+    top: 65px;
+    position: relative;
+}
+.inp1,.inp2{
+    margin-left: 30px;
+    top: 30px;
+    position: relative;
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 6px;
+}
+.inp1{
+    top: 35px;
+}
+.inp2{
+    top: 70px;
+}
+.dont{
+    position: relative;
+    top: 80px;
+    font-size: small;
+   
+}
+button{
+bottom: 0;
+left: 10%;
+position: absolute;
+bottom: 30px;
+background-color: black;
+color: white;
+width: 80%;
+border-radius: 6px;
+border: none;
+height: 30px;
+}
